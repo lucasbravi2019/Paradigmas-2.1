@@ -7,7 +7,7 @@ public class PH extends Edificio {
 
     private byte cantidadPisos;
 
-    private List<Departamento> unidad = new ArrayList<>();
+    private List<Departamento> unidad;
 
     public PH(float avaluoxmt, byte cantidadPisos, List<Departamento> unidad) {
         super(avaluoxmt);
